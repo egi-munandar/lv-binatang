@@ -9,8 +9,10 @@
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Binatang | </title>
+    <title>Binatang | {{ $pageTitle }}</title>
 </head>
+@include('layouts.header')
+@include('layouts.alert')
 @yield('content')
 
 <body>
